@@ -2,6 +2,8 @@ import pandas as pd
 
 df = pd.read_csv('Motor_Vehicle_Collisions_cpy2.csv')
 
+#sixth program ran
+
 #Print all possible contributing factors for vehicles involved in collisions
 contributing_factors_cols = ['CONTRIBUTING FACTOR VEHICLE 1', 'CONTRIBUTING FACTOR VEHICLE 2', 'CONTRIBUTING FACTOR VEHICLE 3', 'CONTRIBUTING FACTOR VEHICLE 4', 'CONTRIBUTING FACTOR VEHICLE 5'] 
 unique_contributing_factors = pd.concat(df[col] for col in contributing_factors_cols).unique()

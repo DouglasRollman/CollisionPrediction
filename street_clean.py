@@ -1,5 +1,6 @@
 import pandas as pd
 
+#second program ran
 df = pd.read_csv("Motor_Vehicle_Collisions_cpy.csv")
 # Mapping dictionary for common misspellings
 misspellings_map = {
